@@ -12,8 +12,9 @@ Open `index.html` with your browser!
 
 # TODO
 
-[ ] Don't use icon font
-[ ] Remove Extra font & css & js files(ttf, medium, ...)
+- [x] add todo
+- [ ] Don't use icon font
+- [ ] Remove Extra font & css & js files(ttf, medium, ...)
 
 #
 
