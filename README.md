@@ -1,6 +1,6 @@
 # Song Template
 
-Song template with HTML CSS JS.
+Song template with HTML CSS Bootstrap JS.
 
 #
 
