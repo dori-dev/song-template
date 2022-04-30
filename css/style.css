@@ -100,3 +100,14 @@ body a:visited {
     border-bottom: none;
   }
 }
+
+/* Main Slider */
+
+#main-slider {
+  height: 450px !important;
+}
+
+#main-slider .carousel-item img {
+  height: 450px !important;
+  object-fit: cover;
+}
