@@ -5,71 +5,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.min.css">
     <link rel="stylesheet" type="text/css" href="css/icofont.min.css">
     <link rel="stylesheet" type="text/css" href="css/component.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <title>سایت آهنگ</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg nav-header">
-        <div class="container">
-            <div class="row justify-content-between custom-row">
-                <a href="#" class="navbar-brand">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-header">
+        <div class="container-fluid justify-content-between">
+            <div class="custom-brand">
+                <a class="navbar-brand" href="#">
                     <img src="img/logo.png" alt="LOGO">
                     سایت آهنگ
                 </a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-target="#custom-navbar-collapse">
-                    <span class="icofont-navigation-menu"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="custom-navbar-collapse">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link">صفحه اصلی</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">تک آهنگ</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" role="button" id="navbarDropdown"
-                                data-bs-toggle="dropdown">
-                                آلبوم موسیقی
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a href="#" class="dropdown-item">پوتک</a></li>
-                                <li><a href="#" class="dropdown-item">خلسه</a></li>
-                                <li><a href="#" class="dropdown-item">روتشیلد</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a href="#" class="dropdown-item">همه</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">موزیک ویدیو</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">خواننده</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">تماس با ما</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <form class="form-inline">
-                    <input type="search" class="form-control" placeholder="جستجو در سایت">
-                    <button type="submit" class="btn btn-outline-success">جستجو</button>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse custom-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">صفحه اصلی</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">آهنگ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">آلبوم</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            سبک های موسیقی
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">پاپ</a></li>
+                            <li><a class="dropdown-item" href="#">رپ</a></li>
+                            <li><a class="dropdown-item" href="#">سنتی</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">موزیک ویدیو</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">آرتیست</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">تماس با ما</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="در سایت جستجو کنید..."
+                        aria-label="search">
+                    <button class="btn btn-outline-success" type="submit">جستجو</button>
                 </form>
             </div>
         </div>
     </nav>
+
+
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/modernizr.custom.js"></script>

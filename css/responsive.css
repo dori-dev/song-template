@@ -1,8 +1,0 @@
-@media (max-width: 992px) {
-  .nav-header {
-    height: auto;
-  }
-  .nav-header form {
-    display: none;
-  }
-}
