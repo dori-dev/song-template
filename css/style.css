@@ -128,12 +128,12 @@ body a:visited {
 
 #top-musics .head {
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 #top-musics .head .head-title {
   color: #555;
-  font-size: 17px;
+  font-size: 18px;
   float: right;
 }
 #top-musics .head .head-title i {
@@ -148,27 +148,31 @@ body a:visited {
   color: #fff;
 }
 
-#top-musics .cs-style-3 img {
+#top-musics .music-hover img {
   width: 100%;
-  border-radius: 6px;
+  border-radius: 5px;
 }
 
-.cs-style-3 figcaption {
-  /* border-radius: 6px; */
+#top-musics .music-hover figure:hover img {
+  border-radius: 0;
+}
+
+.music-hover figcaption {
   text-align: center;
 }
 
-.cs-style-3 figcaption h3 {
-  font-size: 17px;
+.music-hover figcaption h3 {
+  font-size: 14px;
   margin-bottom: 20px;
 }
-.cs-style-3 figcaption a {
+
+.music-hover figcaption a {
   right: 0;
   left: 0;
   bottom: 0;
   top: auto;
 }
 
-.cs-style-3 figure {
+.music-hover figure {
   margin: 5px auto;
 }
