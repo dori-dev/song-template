@@ -10,14 +10,6 @@ Open `index.html` with your browser!
 
 #
 
-# TODO
-
-- [x] add todo
-- [ ] Don't use icon font
-- [ ] Remove Extra font & css & js files(ttf, medium, ...)
-
-#
-
 ## Links
 
 Download Source Code: [Click Here](https://github.com/dori-dev/song-template/archive/refs/heads/master.zip)
