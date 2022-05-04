@@ -283,7 +283,7 @@ body a:visited {
   display: block;
   margin-bottom: 10px;
   border-radius: 5px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .social-box.telegram {
@@ -331,4 +331,100 @@ body a:visited {
 
 #pills-tab {
   justify-content: center;
+}
+
+/* Posts(Center Sidebar) */
+
+.post {
+  margin-bottom: 20px;
+}
+
+.post .card-header {
+  padding: 0;
+}
+
+.post .card-header .title {
+  float: right;
+  padding: 15px 20px;
+  width: 80%;
+  display: flex;
+}
+
+.post .card-header .title a {
+  font-size: 19px;
+  color: #444;
+}
+.post .card-header .title a:hover {
+  color: #222;
+}
+
+.post .card-header .title i {
+  font-size: 24px;
+  color: #005cbf;
+  margin-left: 10px;
+  float: right;
+}
+
+.post .card-header .like {
+  float: left;
+  padding: 5px 20px;
+  background-color: #005cbf;
+  border-top-left-radius: 4px;
+  text-align: center;
+}
+
+.post .card-header .like span {
+  display: block;
+  color: #fff;
+}
+
+.post .card-header .like .like-icon i {
+  font-size: 22px;
+}
+
+.post .image-box img {
+  max-width: 100%;
+  width: 480;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+.post .content-box {
+  margin: 15px 0 25px 0;
+  text-align: center;
+}
+
+.post .content-box h2,
+.post .content-box h3,
+.post .content-box p {
+  color: #444;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.post .details-box {
+  padding-top: 12px;
+  border-top: 1px solid #f2f2f2;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post .details-box .details ul {
+  list-style: none;
+  margin-right: -30px;
+  margin-top: 10px;
+}
+
+.post .details-box .details ul li {
+  float: right;
+  margin-left: 15px;
+  font-size: 15px;
+  color: #333;
+}
+
+.post .details-box .details ul li i {
+  float: right;
+  margin-left: 6px;
 }
