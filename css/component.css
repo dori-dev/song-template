@@ -31,15 +31,6 @@
   color: #fff;
 }
 
-.grid figcaption a,
-.grid figcaption a:hover,
-.grid figcaption a:active,
-.grid figcaption a:focus,
-.grid figcaption a:visited {
-  color: #fff;
-  text-decoration: none;
-}
-
 .grid figcaption a {
   text-align: center;
   padding: 5px 10px;
