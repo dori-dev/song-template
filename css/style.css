@@ -138,7 +138,7 @@ body a:visited {
 }
 #top-musics .head .head-title i {
   color: #005cbf;
-  margin-left: 5px;
+  margin-left: 10px;
   font-size: 22px;
   float: right;
 }
@@ -175,4 +175,66 @@ body a:visited {
 
 .music-hover figure {
   margin: 5px auto;
+}
+
+/* Sidebar */
+
+#main-content {
+  margin: 15px 0;
+}
+
+.sidebar {
+  margin-bottom: 20px;
+}
+
+.sidebar .card-header i {
+  color: #005cbf;
+  margin-left: 8px;
+  margin-top: 2px;
+  font-size: 19px;
+  float: right;
+}
+
+.sidebar .card-header span {
+  font-size: 17px;
+  float: right;
+}
+
+.sidebar .ads {
+  text-align: center;
+}
+
+/* Right Sidebar */
+
+.sidebar .list {
+  margin-right: -10px;
+}
+
+.sidebar .list li a {
+  color: #555;
+  display: block;
+  padding: 3px;
+  margin: 2px auto;
+  transition: all 250ms;
+}
+.sidebar .list li a:hover {
+  color: #333;
+  padding-right: 10px;
+}
+
+.sidebar .chart {
+  list-style: none;
+  margin-right: -30px;
+}
+
+.sidebar .chart li {
+  margin: 8px auto;
+  color: #555;
+  font-size: 12px;
+}
+.sidebar .chart li i {
+  margin-left: 10px;
+}
+.sidebar .chart li svg {
+  margin-left: 10px;
 }
