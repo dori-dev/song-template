@@ -64,6 +64,14 @@ body a:visited {
   flex-grow: 1;
 }
 
+.custom-brand a {
+  font-size: 1.35rem;
+}
+
+.custom-brand img {
+  margin-left: 5px;
+}
+
 .custom-collapse {
   flex-grow: 1;
 }
