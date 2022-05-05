@@ -428,3 +428,12 @@ body a:visited {
   float: right;
   margin-left: 6px;
 }
+
+.posts-pagination {
+  text-align: center;
+}
+
+.posts-pagination ul {
+  justify-content: center;
+  margin-top: 15px;
+}
