@@ -111,12 +111,31 @@ body a:visited {
 /* Main Slider */
 
 #main-slider {
-  height: 450px !important;
+  height: 300px !important;
+  position: relative;
 }
 
 #main-slider .carousel-item img {
-  height: 450px !important;
+  height: 300px !important;
   object-fit: cover;
+}
+
+#main-slider .carousel-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  text-align: center;
+}
+
+#main-slider .carousel-header {
+  color: #fff;
+}
+
+#main-slider .carousel-header h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
 }
 
 /* Ads */
