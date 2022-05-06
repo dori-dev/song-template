@@ -246,6 +246,12 @@ body a:visited {
 
 /* Left Sidebar */
 
+.sidebar-left .banner {
+  display: inline-block;
+  margin: 5px 0;
+  max-height: calc(624px/4*3);
+}
+
 .sidebar .list {
   margin-right: -17px;
 }
@@ -281,7 +287,7 @@ body a:visited {
 .sidebar-right .banner {
   display: inline-block;
   margin: 5px 0;
-  max-width: 49%;
+  max-height: calc(480px/4*3);
 }
 
 .musics-list {
