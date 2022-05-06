@@ -142,20 +142,27 @@ body a:visited {
 /* Ads */
 
 #ads {
-  margin: 25px 0;
+  margin: 10px 0;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 #ads img {
-  margin: 3px auto;
+  margin: 6px auto;
   max-width: 100%;
+  min-width: 80%;
+}
+
+.xyz {
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  background-clip:padding-box;
 }
 
 /* Top Musics */
 
 #top-musics .head {
-  margin-top: 20px;
-  margin-bottom: 70px;
+  margin-top: 60px;
 }
 
 #top-musics .head .head-title {
