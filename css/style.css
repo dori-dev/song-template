@@ -483,8 +483,6 @@ body a:visited {
 }
 
 #footer .footer-head i {
-  width: 25px;
-  height: 30px;
   font-size: 25px;
   float: right;
   margin-left: 10px;
@@ -495,8 +493,8 @@ body a:visited {
 
 #footer .footer-head h5 {
   float: right;
-  font-size: 22px;
-  margin-top: 3px;
+  font-size: 20px;
+  margin-top: 4px;
 }
 
 #footer .footer-content {
@@ -508,8 +506,8 @@ body a:visited {
 }
 
 #footer .footer-content ul li {
-  padding: 10px;
-  margin-bottom: 0;
+  padding: 5px 0;
+  margin-bottom: 7px;
   overflow: hidden;
   width: 100%;
   border-radius: 4px;
@@ -530,14 +528,13 @@ body a:visited {
   width: 50px;
   height: 50px;
   float: right;
-  margin-left: 15px;
+  margin-left: 10px;
   border-radius: 3px;
 }
 
 #footer .footer-content ul li h2 {
-  font-size: 18px;
+  font-size: 16px;
   color: #333;
-  margin-top: 2px;
 }
 
 #footer .footer-content ul li:hover h2 {
@@ -545,14 +542,14 @@ body a:visited {
 }
 
 #footer .footer-content ul li .music-details {
-  margin-top: 10px;
+  margin-top: 8px;
   color: #333;
 }
 
 #footer .footer-content ul li .music-details span {
   float: right;
   color: #444;
-  font-size: 13px;
+  font-size: 12px;
   margin-left: 8px;
 }
 
