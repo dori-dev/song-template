@@ -153,12 +153,6 @@ body a:visited {
   min-width: 80%;
 }
 
-.xyz {
-  box-sizing: border-box;
-  border: 3px solid transparent;
-  background-clip: padding-box;
-}
-
 /* Top Musics */
 
 #top-musics .head {
@@ -249,7 +243,7 @@ body a:visited {
 .sidebar-left .banner {
   display: inline-block;
   margin: 5px 0;
-  max-height: calc(624px/4*3);
+  max-height: calc(624px / 4 * 3);
 }
 
 .sidebar .list {
@@ -287,7 +281,7 @@ body a:visited {
 .sidebar-right .banner {
   display: inline-block;
   margin: 5px 0;
-  max-height: calc(480px/4*3);
+  max-height: calc(480px / 4 * 3);
 }
 
 .musics-list {
@@ -386,33 +380,49 @@ body a:visited {
 
 .post .card-header {
   padding: 0;
+  margin: 0;
+  position: relative;
+  height: auto;
 }
 
 .post .card-header .title {
   float: right;
   padding: 15px 20px;
-  width: 80%;
+  width: 75%;
+  max-width: 75%;
   display: flex;
+  overflow: hidden;
 }
 
 .post .card-header .title a {
+  display: block;
+  line-height: 25px;
   font-size: 19px;
+  overflow: hidden;
   color: #444;
 }
+
 .post .card-header .title a:hover {
   color: #222;
 }
 
 .post .card-header .title i {
-  font-size: 24px;
+  font-size: 23px;
   color: #005cbf;
   margin-left: 10px;
   float: right;
 }
 
 .post .card-header .like {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
   float: left;
+  min-width: 8%;
   padding: 5px 20px;
+  color: #fff;
   background-color: #005cbf;
   border-top-left-radius: 4px;
   text-align: center;
