@@ -218,13 +218,13 @@ body a:visited {
 .sidebar .card-header i {
   color: #005cbf;
   margin-left: 8px;
-  margin-top: 2px;
+  margin-top: 1px;
   font-size: 19px;
   float: right;
 }
 
 .sidebar .card-header span {
-  font-size: 16px;
+  font-size: 17px;
   float: right;
 }
 
@@ -290,7 +290,7 @@ body a:visited {
 }
 
 .musics-list li a {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .musics-list li a {
@@ -361,7 +361,7 @@ body a:visited {
 }
 
 .social-box .social-text span.title {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #pills-tab {
