@@ -443,6 +443,11 @@ body a:visited {
   height: auto;
   display: block;
   margin: 0 auto 15px auto;
+  transition: all 0.5s;
+}
+
+.post .image-box img:hover {
+  opacity: 0.75;
 }
 
 .post .content-box {
