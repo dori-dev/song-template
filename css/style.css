@@ -606,3 +606,64 @@ body a:visited {
 #footer .copy-right p {
   display: inline;
 }
+
+/* Contact Us  */
+
+.about .card-header i {
+  font-size: 21px;
+}
+
+.about .card-header span {
+  font-size: 18px;
+}
+
+.about-text {
+  font-size: 17px;
+}
+
+.info-title {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.info-text p {
+  margin: 3px;
+}
+
+.info-text p .title {
+  font-size: 17px;
+}
+
+.info-text p button {
+  margin-right: 5px;
+}
+
+.contact-form {
+  padding: 10px;
+}
+
+.contact-form label {
+  font-size: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 16px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 1px black solid;
+}
+
+.contact-form button {
+  width: 100%;
+}
