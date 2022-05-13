@@ -23,6 +23,8 @@
   left: 0;
   padding: 20px;
   background: #292b2c;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 .grid figcaption h3 {
@@ -34,8 +36,9 @@
 .grid figcaption a {
   text-align: center;
   padding: 5px 10px;
-  border-radius: 2px;
   display: inline-block;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 @media (min-width: 992px) {
