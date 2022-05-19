@@ -607,7 +607,7 @@ body a:visited {
   display: inline;
 }
 
-/* Contact Us  */
+/* Contact-Us Page */
 
 .about .card-header i {
   font-size: 21px;
@@ -666,4 +666,199 @@ body a:visited {
 
 .contact-form button {
   width: 100%;
+}
+
+/* Song Page */
+
+.music-content {
+  text-align: center;
+}
+
+.music-content .about {
+  margin-top: 17px;
+}
+
+.music-content .ads {
+  margin-top: 17px;
+}
+
+.music-content .ads img {
+  max-width: 100%;
+}
+
+.music-content .text p {
+  white-space: pre-line;
+}
+
+.music-content .text {
+  margin-bottom: 30px;
+}
+
+.music-content .text #more {
+  display: none;
+}
+
+.music-content .like {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.music-content .like i {
+  font-size: 24px;
+}
+
+.music-content .like button {
+  font-size: 22px;
+  padding: 0;
+  padding: 0 7px;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+
+.music-content .online {
+  margin: 20px;
+}
+
+.music-content .online h4 {
+  margin-top: 10px;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.music-content .online audio {
+  border-color: #999;
+  border: 1px solid #999;
+  border-radius: 25px;
+}
+
+.music-content .download {
+  margin: 20px;
+}
+
+.music-content .download button {
+  margin: 3px auto;
+  border-radius: 10px;
+}
+
+.link-song .card-body a {
+  margin: 2px;
+  width: 100%;
+  height: 90%;
+  color: #333;
+  border-color: #333;
+}
+
+.link-song .card-body a:hover {
+  color: #fff;
+}
+
+.tags .card-body a {
+  margin: 2px;
+  width: 100%;
+  height: 90%;
+  font-size: 13px;
+  color: #222;
+  border-color: #222;
+}
+
+.comments .comment {
+  margin-bottom: 35px;
+}
+
+.comments .comment-title {
+  color: #333;
+  font-size: 22px;
+  text-align: center;
+}
+
+.comments hr {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comments .comment-title.your {
+  margin: 20px;
+  margin-bottom: -10px;
+}
+
+.comments hr.your {
+  margin-bottom: 25px;
+}
+
+.comment-form {
+  padding: 20px;
+}
+
+.comment-form label {
+  font-size: 18px;
+  color: #333;
+}
+
+.comment-form input,
+.comment-form textarea {
+  font-size: 16px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 18px;
+  resize: vertical;
+}
+
+.comment-form input:focus,
+.comment-form textarea:focus {
+  outline: 1px black solid;
+}
+
+.comment-form button {
+  width: 100%;
+}
+
+.comments .comment-title.other {
+  margin: 30px;
+  margin-bottom: -10px;
+}
+
+.comments hr.other {
+  margin-bottom: 55px;
+}
+
+.comments .comment .card .card-header {
+  border: 0;
+  border-bottom: 0.1px solid #dfdfdf;
+  background-color: #eeeeee59;
+}
+
+.comments .comment .card {
+  border-color: #dfdfdf;
+  border-radius: 5px;
+}
+
+.comments .comment .message {
+  margin: 10px;
+  margin-right: -5px;
+}
+
+.comments .comment .reply {
+  margin: 10px;
+  margin-right: 15px;
+}
+
+.comments .comment .name {
+  margin: 9px 10px 7px 8px;
+  float: right;
+}
+
+.comments .comment .date {
+  color: #555;
+  margin: 9px 10px 7px 8px;
+  float: right;
+}
+
+.comments .comment button {
+  float: left;
+  margin: 5px 4px;
 }
