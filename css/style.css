@@ -747,6 +747,12 @@ body a:visited {
 .music-content .download button {
   margin: 3px auto;
   border-radius: 10px;
+  font-size: 17px;
+}
+
+.music-content .download button i {
+  margin-left: 4px;
+  font-size: 18px;
 }
 
 .share a i {
@@ -766,6 +772,10 @@ body a:visited {
 .link-song .card-body a:hover {
   color: #fff;
   background-color: #333;
+}
+
+.link-song .card-body a i {
+  margin-left: 3px;
 }
 
 .tags .card-body a {
@@ -841,10 +851,11 @@ body a:visited {
 .comments .comment-title.other {
   margin: 30px;
   margin-bottom: -10px;
+  margin-top: 40px;
 }
 
 .comments hr.other {
-  margin-bottom: 55px;
+  margin-bottom: 45px;
 }
 
 .comments .comment .card .card-header {
