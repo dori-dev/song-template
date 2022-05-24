@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="درسانگ - آهنگ ">
+    <meta name="description" content="درسانگ - آهنگ بالانس ">
     <meta name="keywords" content="song, music, دانلود, آهنگ, موسیقی">
     <meta name="author" content="Mohammad Dori">
     <meta name="publisher" content="Mohammad Dori">
     <meta name="copyright" content="Mohammad Dori">
-    <meta name="description" content="درسانگ - منبع بزرگ آهنگ و موسیقی">
+    <meta name="description" content="دانلود آهنگ بالانس از زدبازی">
     <meta name="page-topic" content="Music">
     <meta name="page-type" content="Blogging">
     <meta name="audience" content="Everyone">
@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/component.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/modernizr.custom.js"></script>
-    <title>درسانگ - صفحه اصلی</title>
+    <title>درسانگ - آهنگ بالانس</title>
 </head>
 
 <body>
@@ -528,7 +528,9 @@
                             <div class="card-header">
                                 <div class="title">
                                     <i class="icofont-ui-music"></i>
-                                    آهنگ بالانس از زدبازی
+                                    <span>
+                                        آهنگ بالانس از زدبازی
+                                    </span>
                                 </div>
                                 <div class="like">
                                     <span class="like-icon">
@@ -668,7 +670,8 @@
                                                 نداره گنگستر شهر ماها
                                             </span>
                                         </p>
-                                        <button class="btn btn-success btn-sm" onclick="readMore()" id="morebtn">
+                                        <button style="margin-bottom: 30px;" class="btn btn-success btn-sm"
+                                            onclick="readMore()" id="morebtn">
                                             خواندن تمام متن
                                         </button>
                                     </div>
@@ -708,17 +711,48 @@
                                     </div>
                                     <div class="share">
                                         <a class="dropdown-toggle btn btn-secondary btn-sm" data-bs-toggle="dropdown"
-                                            href="#" role="button" aria-expanded="false">اشتراک گذاری</a>
+                                            href="#" role="button" aria-expanded="false">
+                                            اشتراک گذاری
+                                        </a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">واتساپ</a></li>
-                                            <li><a class="dropdown-item" href="#">تلگرام</a></li>
-                                            <li><a class="dropdown-item" href="#">توییتر</a></li>
-                                            <li><a class="dropdown-item" href="#">فیسبوک</a></li>
-                                            <li><a class="dropdown-item" href="#">لینکدین</a></li>
+                                            <li>
+                                                <a class="dropdown-item" target="_blank"
+                                                    href="https://wa.me/?text=[https://dori-dev.github.io/song-template/song.html]">
+                                                    <i class="icofont-whatsapp"></i>
+                                                    واتساپ
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" target="_blank"
+                                                    href="https://telegram.me/share/url?url=[https://dori-dev.github.io/song-template/song.html]&text=[آهنگ بالانس از زدبازی]">
+                                                    <i class="icofont-telegram"></i>
+                                                    تلگرام
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" target="_blank"
+                                                    href="http://twitter.com/home?status=[آهنگ بالانس از زدبازی]+[https://dori-dev.github.io/song-template/song.html]">
+                                                    <i class="icofont-twitter"></i>
+                                                    توییتر
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" target="_blank"
+                                                    href="http://www.facebook.com/share.php?u=[https://dori-dev.github.io/song-template/song.html]&title=[آهنگ بالانس از زدبازی]">
+                                                    <i class="icofont-facebook"></i>
+                                                    فیسبوک
+                                                </a>
+                                            </li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="#">کپی لینک</a></li>
+                                            <li>
+                                                <a class="dropdown-item"
+                                                    onclick='navigator.clipboard.writeText("https://dori-dev.github.io/song-template/song.html");'>
+                                                    <i class="icofont-ui-copy"></i>
+                                                    کپی لینک
+                                                </a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -728,9 +762,9 @@
                             <div class="card-header">
                                 <div class="title">
                                     <i class="icofont-link-alt"></i>
-                                    <a href="song.html">
+                                    <span>
                                         آهنگ های مرتبط
-                                    </a>
+                                    </span>
                                 </div>
                             </div>
                             <div class="card-body row">
@@ -800,113 +834,82 @@
                             <div class="card-header">
                                 <div class="title">
                                     <i class="icofont-tags"></i>
-                                    <a href="song.html">
+                                    <span style="margin-top: 0px;">
                                         برچسب ها
-                                    </a>
+                                    </span>
                                 </div>
                             </div>
                             <div class="card-body row">
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
+                                    <a class="btn btn-outline-secondary" href="list.html"
                                         rel="tag follow noopener noreferrer" data-wpel-link="internal">
-                                        Download Music Sohrab MJ And Sepehr Khalseh And Mehrad Hidden And Alireza JJ
+                                        آهنگ رپ
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
-                                        Download New Music Sohrab MJ And Sepehr Khalseh And Mehrad Hidden And Alireza JJ
-                                        Called Balance
+                                    <a class="btn btn-outline-secondary" href="#" rel="tag follow noopener noreferrer"
+                                        data-wpel-link="internal">
+                                        آهنگ های خلسه
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
-                                        Download Song Sohrab MJ And Sepehr Khalseh And Mehrad Hidden And Alireza JJ
-                                    </a>
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
-                                        Sohrab MJ And Sepehr Khalseh And Mehrad Hidden And Alireza JJ
-                                    </a>
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
-                                        بیوگرافی سهراب ام جی و سپهر خلسه و مهراد هیدن و علیرضا جی جی
-                                    </a>
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
-                                        دانلود آهنگ بالانس
-                                    </a>
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
-                                        دانلود آهنگ بالانس از سهراب ام جی و سپهر خلسه و مهراد هیدن و علیرضا جی جی
-                                    </a>
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
+                                    <a class="btn btn-outline-secondary" href="#" rel="tag follow noopener noreferrer"
+                                        data-wpel-link="internal">
                                         دانلود آهنگ جدید
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
-                                        دانلود آهنگ سهراب ام جی و سپهر خلسه و مهراد هیدن و علیرضا جی جی
+                                    <a class="btn btn-outline-secondary" href="#" rel="tag follow noopener noreferrer"
+                                        data-wpel-link="internal">
+                                        آهنگ های زدبازی
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
-                                        دانلود آهنگ های سهراب ام جی و سپهر خلسه و مهراد هیدن و علیرضا جی جی
+                                    <a class="btn btn-outline-secondary" href="#" rel="tag follow noopener noreferrer"
+                                        data-wpel-link="internal">
+                                        آهنگ شاد
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
-                                        دانلود فول آلبوم سهراب ام جی و سپهر خلسه و مهراد هیدن و علیرضا جی جی
+                                    <a class="btn btn-outline-secondary" href="#" rel="tag follow noopener noreferrer"
+                                        data-wpel-link="internal">
+                                        دانلود آهنگ های علیرضا جی جی
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
-                                        دانلود موزیک جدید
+                                    <a class="btn btn-outline-secondary" href="#" rel="tag follow noopener noreferrer"
+                                        data-wpel-link="internal">
+                                        دانلود آهنگ بالانس از زدبازی
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
-                                        سایت سهراب ام جی و سپهر خلسه و مهراد هیدن و علیرضا جی جی
+                                    <a class="btn btn-outline-secondary" href="#" rel="tag follow noopener noreferrer"
+                                        data-wpel-link="internal">
+                                        آهنگ جدید
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
+                                    <a class="btn btn-outline-secondary" href="#" rel="tag follow noopener noreferrer"
+                                        data-wpel-link="internal">
                                         درسانگ
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
-                                        سهراب ام جی و سپهر خلسه و مهراد هیدن و علیرضا جی جی
+                                    <a class="btn btn-outline-secondary" href="#" rel="tag follow noopener noreferrer"
+                                        data-wpel-link="internal">
+                                        علیرضا ام جی
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
-                                        کد آهنگ بالانس از سهراب ام جی و سپهر خلسه و مهراد هیدن و علیرضا جی جی برای وبلاگ
+                                    <a class="btn btn-outline-secondary" href="#" rel="tag follow noopener noreferrer"
+                                        data-wpel-link="internal">
+                                        آهنگ های مهراد هیدن
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                                    <a class="btn btn-outline-secondary disabled" href="#"
-                                        rel="tag follow noopener noreferrer" data-wpel-link="internal">
-                                        متن آهنگ بالانس از سهراب ام جی و سپهر خلسه و مهراد هیدن و علیرضا جی جی
+                                    <a class="btn btn-outline-secondary" href="#" rel="tag follow noopener noreferrer"
+                                        data-wpel-link="internal">
+                                        آخرین آهنگ های رپ
                                     </a>
                                 </div>
                             </div>
@@ -915,9 +918,9 @@
                             <div class="card-header">
                                 <div class="title">
                                     <i class="icofont-comment"></i>
-                                    <a href="song.html">
+                                    <span>
                                         نظرات (۷۵)
-                                    </a>
+                                    </span>
                                 </div>
                             </div>
                             <div class="card-body">

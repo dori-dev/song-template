@@ -402,6 +402,15 @@ body a:visited {
   color: #444;
 }
 
+.post .card-header .title span {
+  margin-top: 2px;
+  display: block;
+  line-height: 25px;
+  font-size: 19px;
+  overflow: hidden;
+  color: #222;
+}
+
 .post .card-header .title a:hover {
   color: #222;
 }
@@ -740,6 +749,12 @@ body a:visited {
   border-radius: 10px;
 }
 
+.share a i {
+  float: right;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
 .link-song .card-body a {
   margin: 2px;
   width: 100%;
@@ -750,15 +765,21 @@ body a:visited {
 
 .link-song .card-body a:hover {
   color: #fff;
+  background-color: #333;
 }
 
 .tags .card-body a {
   margin: 2px;
   width: 100%;
   height: 90%;
-  font-size: 13px;
-  color: #222;
-  border-color: #222;
+  color: #444442;
+  border-color: #444;
+}
+
+.tags .card-body a:hover {
+  color: #fff;
+  background-color: #555;
+  border-color: #555;
 }
 
 .comments .comment {
