@@ -744,13 +744,23 @@ body a:visited {
   margin: 20px;
 }
 
-.music-content .download button {
+.music-content .download a {
   margin: 3px auto;
   border-radius: 10px;
   font-size: 17px;
+  max-width: 80%;
 }
 
-.music-content .download button i {
+@media only screen and (max-width: 600px) {
+  .music-content .download a {
+    font-size: 16px;
+  }
+  .music-content .download a i {
+    font-size: 17px;
+  }
+}
+
+.music-content .download a i {
   margin-left: 4px;
   font-size: 18px;
 }
@@ -861,7 +871,7 @@ body a:visited {
 .comments .comment .card .card-header {
   border: 0;
   border-bottom: 0.1px solid #dfdfdf;
-  background-color: #eeeeee59;
+  background-color: #eeeeee75;
 }
 
 .comments .comment .card {
@@ -872,25 +882,40 @@ body a:visited {
 .comments .comment .message {
   margin: 10px;
   margin-right: -5px;
+  margin-left: -5px;
 }
 
 .comments .comment .reply {
   margin: 10px;
   margin-right: 15px;
+  margin-left: -5px;
+}
+
+.comments .comment .info {
+  float: right;
+  width: 50%;
+  padding-right: 8px;
+}
+
+.comments .comment .button {
+  float: left;
+  width: 50%;
 }
 
 .comments .comment .name {
-  margin: 9px 10px 7px 8px;
+  margin: 9px 0 7px 20px;
   float: right;
 }
 
 .comments .comment .date {
+  display: block;
   color: #555;
-  margin: 9px 10px 7px 8px;
+  margin: 9px 0 7px 8px;
   float: right;
 }
 
 .comments .comment button {
   float: left;
   margin: 5px 4px;
+  min-width: 50px;
 }
