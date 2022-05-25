@@ -153,6 +153,14 @@ body a:visited {
   min-width: 80%;
 }
 
+img.ads {
+  transition: all 0.5s;
+}
+
+img.ads:hover {
+  opacity: 0.75;
+}
+
 /* Top Musics */
 
 #top-musics .head {
@@ -771,6 +779,24 @@ body a:visited {
   float: right;
   margin-left: 10px;
   margin-top: 2px;
+}
+
+.web-ads .card-body div {
+  margin-bottom: 15px;
+}
+
+.web-ads .card-body a {
+  color: #444;
+}
+
+.web-ads .card-body a:hover {
+  color: #222;
+}
+
+.web-ads .card-body img {
+  margin: 6px auto;
+  max-width: 100%;
+  min-width: 80%;
 }
 
 .link-song .card-body a {
