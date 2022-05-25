@@ -856,6 +856,7 @@ body a:visited {
 
 .comment-form button {
   width: 100%;
+  margin-top: -8px;
 }
 
 .comments .comment-title.other {
