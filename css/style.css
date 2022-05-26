@@ -153,14 +153,6 @@ body a:visited {
   min-width: 80%;
 }
 
-img.ads {
-  transition: all 0.5s;
-}
-
-img.ads:hover {
-  opacity: 0.75;
-}
-
 /* Top Musics */
 
 #top-musics .head {
@@ -799,6 +791,14 @@ img.ads:hover {
   min-width: 80%;
 }
 
+img.ads {
+  transition: all 0.5s;
+}
+
+img.ads:hover {
+  opacity: 0.75;
+}
+
 .link-song .card-body a {
   margin: 2px;
   width: 100%;
@@ -980,7 +980,7 @@ img.ads:hover {
 
 .album-musics .each-music .each-download a {
   display: inline-block;
-  margin: 2px 10px 2px 10px;
+  margin: 2px 5px 2px 5px;
   font-size: 15px;
   max-width: 80%;
 }
